@@ -155,23 +155,25 @@ export default function HomePage() {
               <div className="bg-gradient-to-r from-red-900 to-red-700 p-6 text-white">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-white/20 text-white">In Progress</Badge>
-                  <div className="text-sm opacity-90">85% Complete</div>
+                  <div className="text-sm opacity-90">50% Complete</div>
                 </div>
-                <h3 className="text-2xl font-bold mb-2">FinTech Mobile Platform</h3>
-                <p className="opacity-90">Revolutionary banking app with AI-powered financial insights</p>
+                <h3 className="text-2xl font-bold mb-2">University Attendance Management System</h3>
+                <p className="opacity-90">Revolutionary attendance management system for educational institutions</p>
               </div>
               <CardContent className="p-6">
                 <Progress value={85} className="mb-4" />
                 <div className="flex flex-wrap gap-2 mb-4">
+                  <Badge variant="outline">React</Badge>
                   <Badge variant="outline">React Native</Badge>
                   <Badge variant="outline">Node.js</Badge>
+                  <Badge variant="outline">Supabase</Badge>
                   <Badge variant="outline">AI/ML</Badge>
-                  <Badge variant="outline">Blockchain</Badge>
+                 
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-600">Expected Launch: Q2 2024</span>
+                  <span className="text-sm text-gray-600">Expected Launch:July 2025</span>
                   <Button variant="ghost" size="sm" className="text-red-900">
-                    View Details <ChevronRight className="w-4 h-4 ml-1" />
+                    Stay Tuned <ChevronRight className="w-4 h-4 ml-1" />
                   </Button>
                 </div>
               </CardContent>
@@ -180,22 +182,23 @@ export default function HomePage() {
             <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden bg-white/90 backdrop-blur-sm">
               <div className="bg-gradient-to-r from-gray-800 to-gray-600 p-6 text-white">
                 <div className="flex items-center justify-between mb-4">
-                  <Badge className="bg-white/20 text-white">In Progress</Badge>
-                  <div className="text-sm opacity-90">92% Complete</div>
+                  <Badge className="bg-white/20 text-white">Completed</Badge>
+                  <div className="text-sm opacity-90">Deployed</div>
                 </div>
-                <h3 className="text-2xl font-bold mb-2">E-Commerce Ecosystem</h3>
-                <p className="opacity-90">Next-gen marketplace with AR shopping experience</p>
+                <h3 className="text-2xl font-bold mb-2">MemoRaid- An Amnesia Rehabilitation Platform</h3>
+                <p className="opacity-90">Modern Rehabilitation platform to rehabilitate from memory disorders</p>
               </div>
               <CardContent className="p-6">
                 <Progress value={92} className="mb-4" />
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline">Next.js</Badge>
-                  <Badge variant="outline">WebAR</Badge>
-                  <Badge variant="outline">Microservices</Badge>
-                  <Badge variant="outline">AWS</Badge>
+                  <Badge variant="outline">Flutter</Badge>
+                  <Badge variant="outline">React</Badge>
+                  <Badge variant="outline">Node.Js</Badge>
+                  <Badge variant="outline">Express.Js</Badge>
+                  <Badge variant="outline">Supabase</Badge>
                 </div>
                 <div className="flex items-center justify-between">
-                  <span className="text-sm text-gray-600">Expected Launch: Q1 2024</span>
+                  <span className="text-sm text-gray-600">Launched on: May 2025</span>
                   <Button variant="ghost" size="sm" className="text-red-900">
                     View Details <ChevronRight className="w-4 h-4 ml-1" />
                   </Button>
