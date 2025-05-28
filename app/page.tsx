@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import {
   ArrowRight,
   Users,
@@ -58,8 +59,15 @@ export default function HomePage() {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-white/95 backdrop-blur-sm border-b z-50">
         <div className="flex h-16 w-full items-center justify-between px-6 md:px-12 lg:px-24">
-          <Link href="/" className="text-2xl font-bold text-gray-900">
-            tekvo
+          <Link href="/" className="flex items-center">
+            <Image
+              src="/tekvo1.png"
+              alt="Tekvo Logo"
+              width={120}
+              height={40}
+              className="h-8 w-auto"
+            />
+            <span className="ml-2 font-semibold text-red-900">Tekvo.net</span>
           </Link>
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#services" className="text-gray-700 hover:text-red-900 transition-colors">
@@ -74,7 +82,6 @@ export default function HomePage() {
             <Link href="#contact" className="text-gray-700 hover:text-red-900 transition-colors">
               Contact
             </Link>
-            <Button className="bg-red-900 hover:bg-red-800 text-white">Get Started</Button>
           </div>
         </div>
       </nav>
