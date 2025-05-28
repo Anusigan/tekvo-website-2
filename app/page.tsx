@@ -199,7 +199,12 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-600">Launched on: May 2025</span>
-                  <Button variant="ghost" size="sm" className="text-red-900">
+                  <Button 
+                    variant="ghost" 
+                    size="sm" 
+                    className="text-red-900"
+                    onClick={() => window.open('https://memoraid.netlify.app', '_blank')}
+                  >
                     View Details <ChevronRight className="w-4 h-4 ml-1" />
                   </Button>
                 </div>
