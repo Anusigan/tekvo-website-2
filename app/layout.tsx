@@ -5,6 +5,11 @@ export const metadata: Metadata = {
   title: 'Tekvo',
   description: 'Bringing Real time solutions to your businesss',
   generator: 'v0.dev',
+  icons: {
+    icon: '/tekvo1.png',        // This will be used as favicon
+    apple: '/tekvo1.png',       // Correct path without 'images/' prefix
+    shortcut: '/tekvo1.png',    // Adding shortcut for better compatibility
+  },
 }
 
 export default function RootLayout({
