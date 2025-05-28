@@ -121,7 +121,7 @@ export default function HomePage() {
         {/* Stats */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl">
           <div className="text-center">
-            <div className="text-3xl font-bold text-red-900 mb-2">150+</div>
+            <div className="text-3xl font-bold text-red-900 mb-2">2+</div>
             <div className="text-gray-600">Projects Delivered</div>
           </div>
           <div className="text-center">
@@ -129,11 +129,11 @@ export default function HomePage() {
             <div className="text-gray-600">Client Satisfaction</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-red-900 mb-2">50+</div>
+            <div className="text-3xl font-bold text-red-900 mb-2">6</div>
             <div className="text-gray-600">Team Members</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-red-900 mb-2">5+</div>
+            <div className="text-3xl font-bold text-red-900 mb-2">1+</div>
             <div className="text-gray-600">Years Experience</div>
           </div>
         </div>
