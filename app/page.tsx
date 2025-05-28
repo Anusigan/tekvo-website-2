@@ -210,6 +210,7 @@ export default function HomePage() {
                 </div>
               </CardContent>
             </Card>
+
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
