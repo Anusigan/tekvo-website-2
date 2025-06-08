@@ -95,7 +95,7 @@ export default function HomePage() {
         </div>
 
         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold text-gray-900 max-w-5xl leading-tight mb-8">
-          We build <span className="text-red-900">extraordinary</span> technology solutions for tomorrow's leaders
+          We build <span className="text-red-900">extraordinary</span> technology solutions for tomorrow
         </h1>
 
         <p className="text-xl text-gray-600 max-w-4xl mb-12 leading-relaxed">
