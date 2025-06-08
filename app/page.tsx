@@ -461,111 +461,111 @@ export default function HomePage() {
                     Swift
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Cloud className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Cloud className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Cloud Solutions</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">Cloud Solutions</h3>
+                <p className="text-white/90 mb-6">
                   Scalable cloud infrastructure and microservices architecture for enterprise-grade applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     AWS
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Azure
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Docker
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Database className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Database className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">AI & Machine Learning</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">AI & Machine Learning</h3>
+                <p className="text-white/90 mb-6">
                   Intelligent systems and predictive analytics to automate processes and drive insights.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Python
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     TensorFlow
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     PyTorch
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Shield className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Shield className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Blockchain & Web3</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">Blockchain & Web3</h3>
+                <p className="text-white/90 mb-6">
                   Decentralized applications and smart contracts for the next generation of digital experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Solidity
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Ethereum
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Web3.js
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Code className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Code className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">DevOps & Automation</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">DevOps & Automation</h3>
+                <p className="text-white/90 mb-6">
                   Streamlined development workflows and automated deployment pipelines for faster delivery.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Kubernetes
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Jenkins
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Terraform
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
