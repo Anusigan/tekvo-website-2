@@ -290,7 +290,7 @@ export default function HomePage() {
             <Badge className="bg-red-100 text-red-900 hover:bg-red-100 mb-4">Our Story</Badge>
             <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">The Tekvo Journey</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              From a small startup to a leading technology partner - here's how we've grown and evolved
+              Our journey from a passionate team to an innovative startup
             </p>
           </div>
 
@@ -303,12 +303,12 @@ export default function HomePage() {
                 <div className="flex-1 text-right pr-8">
                   <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/90 backdrop-blur-sm">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2019 - The Beginning</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Founded with a Vision</h4>
+                      <div className="text-red-900 font-bold text-lg mb-2">September 2024</div>
+                      <h4 className="font-semibold text-gray-900 mb-2">Team Formation</h4>
                       <p className="text-gray-600 text-sm">
-                        Started as a 3-person team with a mission to democratize technology
+                        We came together as a passionate team with a vision to create impactful technology solutions
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">3 Team Members • 5 Projects</div>
+                      <div className="mt-3 text-xs text-gray-500">Initial Team Meeting</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -322,12 +322,12 @@ export default function HomePage() {
                 <div className="flex-1 text-left pl-8">
                   <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-white/90 backdrop-blur-sm">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2020 - First Breakthrough</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Major Client Success</h4>
+                      <div className="text-red-900 font-bold text-lg mb-2">April 2025</div>
+                      <h4 className="font-semibold text-gray-900 mb-2">MemoRaid Launch</h4>
                       <p className="text-gray-600 text-sm">
-                        Delivered our first enterprise solution, gaining industry recognition
+                        Successfully launched our first major project - MemoRaid, an amnesia rehabilitation platform
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">8 Team Members • 25 Projects</div>
+                      <div className="mt-3 text-xs text-gray-500">First Product Launch</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -337,10 +337,12 @@ export default function HomePage() {
                 <div className="flex-1 text-right pr-8">
                   <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/90 backdrop-blur-sm">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2021 - Rapid Expansion</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Team Growth & New Services</h4>
-                      <p className="text-gray-600 text-sm">Expanded into mobile development and AI solutions</p>
-                      <div className="mt-3 text-xs text-gray-500">15 Team Members • 50 Projects</div>
+                      <div className="text-red-900 font-bold text-lg mb-2">May 2025</div>
+                      <h4 className="font-semibold text-gray-900 mb-2">Official Startup Formation</h4>
+                      <p className="text-gray-600 text-sm">
+                        Officially established as a startup with 6 talented team members
+                      </p>
+                      <div className="mt-3 text-xs text-gray-500">6 Team Members</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -350,50 +352,16 @@ export default function HomePage() {
 
               <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "0.9s" }}>
                 <div className="flex-1 pr-8"></div>
-                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
-                <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-white/90 backdrop-blur-sm">
-                    <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2022 - Innovation Hub</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">R&D Department Launch</h4>
-                      <p className="text-gray-600 text-sm">
-                        Established dedicated research team for emerging technologies
-                      </p>
-                      <div className="mt-3 text-xs text-gray-500">25 Team Members • 80 Projects</div>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
-
-              <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "1.2s" }}>
-                <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/90 backdrop-blur-sm">
-                    <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2023 - Global Recognition</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Industry Awards & Partnerships</h4>
-                      <p className="text-gray-600 text-sm">
-                        Won "Best Tech Innovation" award and formed strategic partnerships
-                      </p>
-                      <div className="mt-3 text-xs text-gray-500">35 Team Members • 120 Projects</div>
-                    </CardContent>
-                  </Card>
-                </div>
-                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
-                <div className="flex-1 pl-8"></div>
-              </div>
-
-              <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "1.5s" }}>
-                <div className="flex-1 pr-8"></div>
                 <div className="w-6 h-6 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 text-left pl-8">
                   <Card className="border-0 shadow-lg mr-auto max-w-md bg-gradient-to-r from-red-50 to-white animate-slideLeft backdrop-blur-sm">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">2024 - The Future</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Next-Gen Solutions</h4>
+                      <div className="text-red-900 font-bold text-lg mb-2">Mid-May 2025</div>
+                      <h4 className="font-semibold text-gray-900 mb-2">First Major Client</h4>
                       <p className="text-gray-600 text-sm">
-                        Leading the charge in AI, blockchain, and quantum computing
+                        Secured our first major project - developing a University Attendance Management System
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">50+ Team Members • 150+ Projects</div>
+                      <div className="mt-3 text-xs text-gray-500">Project In Development</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -405,27 +373,27 @@ export default function HomePage() {
           <div className="mt-20">
             <Card className="border-0 shadow-xl bg-white/90 backdrop-blur-sm">
               <CardHeader>
-                <CardTitle className="text-center text-2xl text-gray-900">Our Growth Metrics</CardTitle>
+                <CardTitle className="text-center text-2xl text-gray-900">Our Growth Story</CardTitle>
               </CardHeader>
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="text-center">
                     <TrendingUp className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">2,500%</div>
-                    <div className="text-gray-600">Revenue Growth</div>
-                    <div className="text-sm text-gray-500 mt-1">Since 2019</div>
+                    <div className="text-3xl font-bold text-gray-900 mb-2">1</div>
+                    <div className="text-gray-600">Completed Projects</div>
+                    <div className="text-sm text-gray-500 mt-1">MemoRaid Platform</div>
                   </div>
                   <div className="text-center">
                     <Users className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">1,600%</div>
-                    <div className="text-gray-600">Team Expansion</div>
-                    <div className="text-sm text-gray-500 mt-1">From 3 to 50+ members</div>
+                    <div className="text-3xl font-bold text-gray-900 mb-2">6</div>
+                    <div className="text-gray-600">Team Members</div>
+                    <div className="text-sm text-gray-500 mt-1">Talented Professionals</div>
                   </div>
                   <div className="text-center">
                     <Award className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">3,000%</div>
-                    <div className="text-gray-600">Project Volume</div>
-                    <div className="text-sm text-gray-500 mt-1">From 5 to 150+ projects</div>
+                    <div className="text-3xl font-bold text-gray-900 mb-2">2</div>
+                    <div className="text-gray-600">Active Projects</div>
+                    <div className="text-sm text-gray-500 mt-1">And Growing</div>
                   </div>
                 </div>
               </CardContent>
