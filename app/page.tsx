@@ -425,13 +425,13 @@ export default function HomePage() {
                   experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     React
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Next.js
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Node.js
                   </Badge>
                 </div>
@@ -451,13 +451,13 @@ export default function HomePage() {
                   Native and cross-platform mobile applications that deliver seamless experiences across all devices.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     React Native
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Flutter
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Swift
                   </Badge>
                 </div>
@@ -477,13 +477,13 @@ export default function HomePage() {
                   Scalable cloud infrastructure and microservices architecture for enterprise-grade applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     AWS
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Azure
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Docker
                   </Badge>
                 </div>
@@ -493,7 +493,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/80 text-white">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
                   <Database className="w-8 h-8 text-white transition-colors" />
@@ -503,13 +503,13 @@ export default function HomePage() {
                   Intelligent systems and predictive analytics to automate processes and drive insights.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Python
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     TensorFlow
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     PyTorch
                   </Badge>
                 </div>
@@ -519,7 +519,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/80 text-white">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
                   <Shield className="w-8 h-8 text-white transition-colors" />
@@ -529,13 +529,13 @@ export default function HomePage() {
                   Decentralized applications and smart contracts for the next generation of digital experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Solidity
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Ethereum
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Web3.js
                   </Badge>
                 </div>
@@ -545,7 +545,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/80 text-white">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
                   <Code className="w-8 h-8 text-white transition-colors" />
@@ -555,13 +555,13 @@ export default function HomePage() {
                   Streamlined development workflows and automated deployment pipelines for faster delivery.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Kubernetes
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Jenkins
                   </Badge>
-                  <Badge variant="outline" className="text-xs text-white border-white/50">
+                  <Badge className="bg-white text-red-900 hover:bg-white/90">
                     Terraform
                   </Badge>
                 </div>
