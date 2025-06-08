@@ -759,22 +759,22 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="py-16 px-6 md:px-12 lg:px-24 bg-gray-900 text-white relative z-10">
+      <footer className="py-16 px-6 md:px-12 lg:px-24 bg-red-900 text-white relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
               <div className="text-3xl font-bold mb-4">Tekvo Labs</div>
-              <p className="text-gray-400 mb-6">
+              <p className="text-white/80 mb-6">
                 Building tomorrow's technology solutions today. Transforming ideas into digital reality.
               </p>
               <div className="flex space-x-4">
-                <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
+                <Button size="sm" variant="ghost" className="text-white/70 hover:text-white hover:bg-red-800">
                   <ExternalLink className="w-4 h-4" />
                 </Button>
-                <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
+                <Button size="sm" variant="ghost" className="text-white/70 hover:text-white hover:bg-red-800">
                   <ExternalLink className="w-4 h-4" />
                 </Button>
-                <Button size="sm" variant="ghost" className="text-gray-400 hover:text-white">
+                <Button size="sm" variant="ghost" className="text-white/70 hover:text-white hover:bg-red-800">
                   <ExternalLink className="w-4 h-4" />
                 </Button>
               </div>
@@ -782,7 +782,7 @@ export default function HomePage() {
 
             <div>
               <h4 className="font-semibold mb-4">Services</h4>
-              <div className="space-y-2 text-gray-400">
+              <div className="space-y-2 text-white/70">
                 <div>Web Development</div>
                 <div>Mobile Apps</div>
                 <div>Cloud Solutions</div>
@@ -793,7 +793,7 @@ export default function HomePage() {
 
             <div>
               <h4 className="font-semibold mb-4">Company</h4>
-              <div className="space-y-2 text-gray-400">
+              <div className="space-y-2 text-white/70">
                 <div>About Us</div>
                 <div>Our Journey</div>
                 <div>Careers</div>
@@ -804,16 +804,16 @@ export default function HomePage() {
 
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
-              <div className="space-y-2 text-gray-400">
+              <div className="space-y-2 text-white/70">
                 <div>hello@tekvolabs.com</div>
                 <div>+94 77 5810310</div>
               </div>
             </div>
           </div>
 
-          <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 mb-4 md:mb-0">&copy; 2024 Tekvo Labs. All rights reserved.</div>
-            <div className="flex space-x-6 text-gray-400">
+          <div className="border-t border-white/20 pt-8 flex flex-col md:flex-row justify-between items-center">
+            <div className="text-white/70 mb-4 md:mb-0">&copy; 2024 Tekvo Labs. All rights reserved.</div>
+            <div className="flex space-x-6 text-white/70">
               <Link href="#" className="hover:text-white">
                 Privacy Policy
               </Link>
