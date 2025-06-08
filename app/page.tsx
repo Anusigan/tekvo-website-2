@@ -378,22 +378,22 @@ export default function HomePage() {
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="text-center">
-                    <TrendingUp className="w-12 h-12 text-red-100 mx-auto mb-4 animate-bounce" />
-                    <div className="text-3xl font-bold text-white mb-2">1</div>
-                    <div className="text-gray-100/90">Completed Projects</div>
-                    <div className="text-sm text-gray-300 mt-1">MemoRaid Platform</div>
+                    <TrendingUp className="w-12 h-12 text-red-900 mx-auto mb-4 animate-bounce" />
+                    <div className="text-3xl font-bold text-red-900 mb-2">1</div>
+                    <div className="text-red-900/80">Completed Projects</div>
+                    <div className="text-sm text-red-900/70 mt-1">MemoRaid Platform</div>
                   </div>
                   <div className="text-center">
-                    <Users className="w-12 h-12 text-red-100 mx-auto mb-4 animate-pulse" />
-                    <div className="text-3xl font-bold text-white mb-2">6</div>
-                    <div className="text-gray-100/90">Team Members</div>
-                    <div className="text-sm text-gray-300 mt-1">Talented Professionals</div>
+                    <Users className="w-12 h-12 text-red-900 mx-auto mb-4 animate-pulse" />
+                    <div className="text-3xl font-bold text-red-900 mb-2">6</div>
+                    <div className="text-red-900/80">Team Members</div>
+                    <div className="text-sm text-red-900/70 mt-1">Talented Professionals</div>
                   </div>
                   <div className="text-center">
-                    <Award className="w-12 h-12 text-red-100 mx-auto mb-4 animate-bounce" />
-                    <div className="text-3xl font-bold text-white mb-2">2</div>
-                    <div className="text-gray-100/90">Active Projects</div>
-                    <div className="text-sm text-gray-300 mt-1">And Growing</div>
+                    <Award className="w-12 h-12 text-red-900 mx-auto mb-4 animate-bounce" />
+                    <div className="text-3xl font-bold text-red-900 mb-2">2</div>
+                    <div className="text-red-900/80">Active Projects</div>
+                    <div className="text-sm text-red-900/70 mt-1">And Growing</div>
                   </div>
                 </div>
               </CardContent>
@@ -414,158 +414,158 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Globe className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Globe className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Web Development</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">Web Development</h3>
+                <p className="text-red-900/80 mb-6">
                   Custom web applications built with cutting-edge frameworks for optimal performance and user
                   experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     React
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Next.js
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Node.js
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Smartphone className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Smartphone className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Mobile Development</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">Mobile Development</h3>
+                <p className="text-red-900/80 mb-6">
                   Native and cross-platform mobile applications that deliver seamless experiences across all devices.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     React Native
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Flutter
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Swift
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Cloud className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Cloud className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Cloud Solutions</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">Cloud Solutions</h3>
+                <p className="text-red-900/80 mb-6">
                   Scalable cloud infrastructure and microservices architecture for enterprise-grade applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     AWS
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Azure
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Docker
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Database className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Database className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">AI & Machine Learning</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">AI & Machine Learning</h3>
+                <p className="text-red-900/80 mb-6">
                   Intelligent systems and predictive analytics to automate processes and drive insights.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Python
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     TensorFlow
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     PyTorch
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Shield className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Shield className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">Blockchain & Web3</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">Blockchain & Web3</h3>
+                <p className="text-red-900/80 mb-6">
                   Decentralized applications and smart contracts for the next generation of digital experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Solidity
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Ethereum
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Web3.js
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
-                  <Code className="w-8 h-8 text-white transition-colors" />
+                <div className="w-16 h-16 bg-red-100/50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-100/80 transition-colors animate-pulse">
+                  <Code className="w-8 h-8 text-red-900 transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-white mb-4">DevOps & Automation</h3>
-                <p className="text-gray-100/90 mb-6">
+                <h3 className="text-xl font-semibold text-red-900 mb-4">DevOps & Automation</h3>
+                <p className="text-red-900/80 mb-6">
                   Streamlined development workflows and automated deployment pipelines for faster delivery.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Kubernetes
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Jenkins
                   </Badge>
-                  <Badge className="bg-white text-red-900 hover:bg-white/90">
+                  <Badge className="bg-red-900/20 text-red-900 hover:bg-red-900/30">
                     Terraform
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
+                <Button variant="ghost" className="text-red-900 p-0 hover:text-red-800">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
@@ -583,68 +583,68 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-800/90 to-red-600/90 text-white transition-all duration-500 hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
                 <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
+                    <Star key={i} className="w-5 h-5 text-red-900 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-100/90 mb-8 italic">
+                <p className="text-red-900/80 mb-8 italic">
                   "Tekvo transformed our entire digital infrastructure. Their expertise in cloud solutions saved us 40%
                   in operational costs."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
+                  <div className="w-12 h-12 bg-red-900/20 rounded-full flex items-center justify-center text-red-900 font-bold mr-4 border border-red-900/30">
                     JD
                   </div>
                   <div>
-                    <div className="font-semibold text-white">John Davis</div>
-                    <div className="text-sm text-gray-300">CEO, TechCorp</div>
+                    <div className="font-semibold text-red-900">John Davis</div>
+                    <div className="text-sm text-red-900/70">CEO, TechCorp</div>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-800/90 to-red-600/90 text-white transition-all duration-500 hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
                 <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
+                    <Star key={i} className="w-5 h-5 text-red-900 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-100/90 mb-8 italic">
+                <p className="text-red-900/80 mb-8 italic">
                   "The mobile app they built for us has over 1M downloads. Exceptional quality and ongoing support."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
+                  <div className="w-12 h-12 bg-red-900/20 rounded-full flex items-center justify-center text-red-900 font-bold mr-4 border border-red-900/30">
                     EW
                   </div>
                   <div>
-                    <div className="font-semibold text-white">Emily Wilson</div>
-                    <div className="text-sm text-gray-300">Founder, StartupXYZ</div>
+                    <div className="font-semibold text-red-900">Emily Wilson</div>
+                    <div className="text-sm text-red-900/70">Founder, StartupXYZ</div>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-800/90 to-red-600/90 text-white transition-all duration-500 hover:-translate-y-1">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
                 <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
+                    <Star key={i} className="w-5 h-5 text-red-900 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-100/90 mb-8 italic">
+                <p className="text-red-900/80 mb-8 italic">
                   "Their AI solution revolutionized our business processes. ROI was achieved within 6 months."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
+                  <div className="w-12 h-12 bg-red-900/20 rounded-full flex items-center justify-center text-red-900 font-bold mr-4 border border-red-900/30">
                     RJ
                   </div>
                   <div>
-                    <div className="font-semibold text-white">Robert Johnson</div>
-                    <div className="text-sm text-gray-300">CTO, Enterprise Inc</div>
+                    <div className="font-semibold text-red-900">Robert Johnson</div>
+                    <div className="text-sm text-red-900/70">CTO, Enterprise Inc</div>
                   </div>
                 </div>
               </CardContent>
@@ -726,15 +726,15 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg bg-gradient-to-r from-red-800/90 to-red-600/90 text-white hover:shadow-2xl transition-all duration-300">
+              <Card className="border-0 shadow-lg bg-gradient-to-r from-red-900/95 to-white/95 text-red-900 hover:shadow-2xl transition-all duration-300">
                 <CardContent className="p-8">
                   <h3 className="font-semibold mb-4">Quick Consultation</h3>
-                  <p className="mb-6 opacity-90">
+                  <p className="mb-6 text-red-900/80">
                     Need immediate assistance? Schedule a quick 15-minute consultation with our experts.
                   </p>
                   <Button
                     variant="secondary"
-                    className="w-full bg-white text-red-900 hover:bg-gray-100"
+                    className="w-full bg-red-900 text-white hover:bg-red-800 border-0"
                     onClick={() => setConsultationOpen(true)}
                   >
                     Schedule Now
