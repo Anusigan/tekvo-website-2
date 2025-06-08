@@ -301,7 +301,7 @@ export default function HomePage() {
             <div className="space-y-12">
               <div className="flex items-center timeline-item animate-fadeIn">
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/95">
+                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-gradient-to-r from-red-50/95 to-white/95">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">September 2024</div>
                       <h4 className="font-semibold text-gray-900 mb-2">Team Formation</h4>
@@ -320,7 +320,7 @@ export default function HomePage() {
                 <div className="flex-1 pr-8"></div>
                 <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
                 <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-white/95">
+                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-gradient-to-r from-red-50/95 to-white/95">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">April 2025</div>
                       <h4 className="font-semibold text-gray-900 mb-2">MemoRaid Launch</h4>
@@ -335,7 +335,7 @@ export default function HomePage() {
 
               <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "0.6s" }}>
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/95">
+                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-gradient-to-r from-red-50/95 to-white/95">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">May 2025</div>
                       <h4 className="font-semibold text-gray-900 mb-2">Official Startup Formation</h4>
@@ -371,7 +371,7 @@ export default function HomePage() {
 
           {/* Growth Chart */}
           <div className="mt-20">
-            <Card className="border-0 shadow-xl bg-white/95">
+            <Card className="border-0 shadow-xl bg-gradient-to-r from-red-50/95 to-white/95">
               <CardHeader>
                 <CardTitle className="text-center text-2xl text-gray-900">Our Growth Story</CardTitle>
               </CardHeader>
