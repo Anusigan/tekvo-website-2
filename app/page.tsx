@@ -519,7 +519,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/80 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
                   <Shield className="w-8 h-8 text-white transition-colors" />
@@ -545,7 +545,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/80 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
                   <Code className="w-8 h-8 text-white transition-colors" />
