@@ -288,7 +288,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="bg-red-100 text-red-900 hover:bg-red-100 mb-4">Our Story</Badge>
-            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">The Tekvo Journey</h2>
+            <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">The Tekvo Labs Journey</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Our journey from a passionate team to an innovative startup
             </p>
