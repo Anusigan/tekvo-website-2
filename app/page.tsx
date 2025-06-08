@@ -414,13 +414,13 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Globe className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Web Development</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Custom web applications built with cutting-edge frameworks for optimal performance and user
                   experience.
                 </p>
@@ -441,13 +441,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Smartphone className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Mobile Development</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Native and cross-platform mobile applications that deliver seamless experiences across all devices.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -467,13 +467,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Cloud className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Cloud Solutions</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Scalable cloud infrastructure and microservices architecture for enterprise-grade applications.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -493,13 +493,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Database className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">AI & Machine Learning</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Intelligent systems and predictive analytics to automate processes and drive insights.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -519,13 +519,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Shield className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">Blockchain & Web3</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Decentralized applications and smart contracts for the next generation of digital experiences.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -545,13 +545,13 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900/90 text-white">
+            <Card className="border-0 shadow-lg hover:shadow-2xl transition-all duration-500 group bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors animate-pulse">
                   <Code className="w-8 h-8 text-white transition-colors" />
                 </div>
                 <h3 className="text-xl font-semibold text-white mb-4">DevOps & Automation</h3>
-                <p className="text-white/90 mb-6">
+                <p className="text-gray-100/90 mb-6">
                   Streamlined development workflows and automated deployment pipelines for faster delivery.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
@@ -583,68 +583,68 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg bg-white/95">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="flex mb-4">
+                <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-100/90 mb-8 italic">
                   "Tekvo transformed our entire digital infrastructure. Their expertise in cloud solutions saved us 40%
                   in operational costs."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
                     JD
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">John Davis</div>
-                    <div className="text-sm text-gray-600">CEO, TechCorp</div>
+                    <div className="font-semibold text-white">John Davis</div>
+                    <div className="text-sm text-gray-300">CEO, TechCorp</div>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white/95">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="flex mb-4">
+                <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-100/90 mb-8 italic">
                   "The mobile app they built for us has over 1M downloads. Exceptional quality and ongoing support."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
                     EW
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">Emily Wilson</div>
-                    <div className="text-sm text-gray-600">Founder, StartupXYZ</div>
+                    <div className="font-semibold text-white">Emily Wilson</div>
+                    <div className="text-sm text-gray-300">Founder, StartupXYZ</div>
                   </div>
                 </div>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white/95">
+            <Card className="border-0 shadow-lg hover:shadow-2xl bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
               <CardContent className="p-8">
-                <div className="flex mb-4">
+                <div className="flex mb-6">
                   {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current" />
+                    <Star key={i} className="w-5 h-5 text-yellow-400 fill-current animate-pulse" />
                   ))}
                 </div>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-100/90 mb-8 italic">
                   "Their AI solution revolutionized our business processes. ROI was achieved within 6 months."
                 </p>
                 <div className="flex items-center">
-                  <div className="w-12 h-12 bg-red-900 rounded-full flex items-center justify-center text-white font-bold mr-4">
+                  <div className="w-12 h-12 bg-white/20 rounded-full flex items-center justify-center text-white font-bold mr-4 border border-white/30">
                     RJ
                   </div>
                   <div>
-                    <div className="font-semibold text-gray-900">Robert Johnson</div>
-                    <div className="text-sm text-gray-600">CTO, Enterprise Inc</div>
+                    <div className="font-semibold text-white">Robert Johnson</div>
+                    <div className="text-sm text-gray-300">CTO, Enterprise Inc</div>
                   </div>
                 </div>
               </CardContent>
