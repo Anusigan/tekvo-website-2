@@ -151,7 +151,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-8 mb-12">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
               <div className="bg-gradient-to-r from-red-900 to-red-700 p-6 text-white">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-white/20 text-white">In Progress</Badge>
@@ -179,7 +179,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 overflow-hidden">
               <div className="bg-gradient-to-r from-gray-800 to-gray-600 p-6 text-white">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-white/20 text-white">Completed</Badge>
@@ -214,7 +214,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-6">
-            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-yellow-100 text-yellow-800">Planning</Badge>
@@ -236,7 +236,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-green-100 text-green-800">Testing</Badge>
@@ -258,7 +258,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-md hover:shadow-lg transition-shadow">
               <CardContent className="p-6">
                 <div className="flex items-center justify-between mb-4">
                   <Badge className="bg-blue-100 text-blue-800">Research</Badge>
@@ -301,7 +301,7 @@ export default function HomePage() {
             <div className="space-y-12">
               <div className="flex items-center timeline-item animate-fadeIn">
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/90 backdrop-blur-sm">
+                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">September 2024</div>
                       <h4 className="font-semibold text-gray-900 mb-2">Team Formation</h4>
@@ -320,7 +320,7 @@ export default function HomePage() {
                 <div className="flex-1 pr-8"></div>
                 <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
                 <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-white/90 backdrop-blur-sm">
+                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">April 2025</div>
                       <h4 className="font-semibold text-gray-900 mb-2">MemoRaid Launch</h4>
@@ -335,7 +335,7 @@ export default function HomePage() {
 
               <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "0.6s" }}>
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-white/90 backdrop-blur-sm">
+                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">May 2025</div>
                       <h4 className="font-semibold text-gray-900 mb-2">Official Startup Formation</h4>
@@ -354,7 +354,7 @@ export default function HomePage() {
                 <div className="flex-1 pr-8"></div>
                 <div className="w-6 h-6 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md bg-gradient-to-r from-red-50 to-white animate-slideLeft backdrop-blur-sm">
+                  <Card className="border-0 shadow-lg mr-auto max-w-md bg-gradient-to-r from-red-50 to-white animate-slideLeft">
                     <CardContent className="p-6">
                       <div className="text-red-900 font-bold text-lg mb-2">Mid-May 2025</div>
                       <h4 className="font-semibold text-gray-900 mb-2">First Major Client</h4>
@@ -371,7 +371,7 @@ export default function HomePage() {
 
           {/* Growth Chart */}
           <div className="mt-20">
-            <Card className="border-0 shadow-xl bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-xl">
               <CardHeader>
                 <CardTitle className="text-center text-2xl text-gray-900">Our Growth Story</CardTitle>
               </CardHeader>
@@ -414,7 +414,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Globe className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -441,7 +441,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Smartphone className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -467,7 +467,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Cloud className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -493,7 +493,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Database className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -519,7 +519,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Shield className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -545,7 +545,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Code className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -583,7 +583,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-3 gap-8">
-            <Card className="border-0 shadow-lg bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg">
               <CardContent className="p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -606,7 +606,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg">
               <CardContent className="p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
@@ -628,7 +628,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg bg-white/90 backdrop-blur-sm">
+            <Card className="border-0 shadow-lg">
               <CardContent className="p-8">
                 <div className="flex mb-4">
                   {[...Array(5)].map((_, i) => (
