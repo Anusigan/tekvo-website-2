@@ -296,38 +296,38 @@ export default function HomePage() {
 
           {/* Timeline with animations */}
           <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-red-200"></div>
+            <div className="absolute left-1/2 transform -translate-x-1/2 w-1 h-full bg-red-300"></div>
 
             <div className="space-y-12">
               <div className="flex items-center timeline-item animate-fadeIn">
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-gradient-to-r from-red-50/95 to-white/95">
+                  <Card className="border-0 shadow-lg hover:shadow-2xl ml-auto max-w-md animate-slideRight bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">September 2024</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Team Formation</h4>
-                      <p className="text-gray-600 text-sm">
+                      <div className="text-red-100 font-bold text-lg mb-2 animate-pulse">September 2024</div>
+                      <h4 className="font-semibold text-white mb-2">Team Formation</h4>
+                      <p className="text-gray-100/90 text-sm">
                         We came together as a passionate team with a vision to create impactful technology solutions
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">Initial Team Meeting</div>
+                      <div className="mt-3 text-xs text-gray-300">Initial Team Meeting</div>
                     </CardContent>
                   </Card>
                 </div>
-                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
+                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 pl-8"></div>
               </div>
 
               <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "0.3s" }}>
                 <div className="flex-1 pr-8"></div>
-                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
+                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md animate-slideLeft bg-gradient-to-r from-red-50/95 to-white/95">
+                  <Card className="border-0 shadow-lg hover:shadow-2xl mr-auto max-w-md animate-slideLeft bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">April 2025</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">MemoRaid Launch</h4>
-                      <p className="text-gray-600 text-sm">
+                      <div className="text-red-100 font-bold text-lg mb-2 animate-pulse">April 2025</div>
+                      <h4 className="font-semibold text-white mb-2">MemoRaid Launch</h4>
+                      <p className="text-gray-100/90 text-sm">
                         Successfully launched our first major project - MemoRaid, an amnesia rehabilitation platform
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">First Product Launch</div>
+                      <div className="mt-3 text-xs text-gray-300">First Product Launch</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -335,18 +335,18 @@ export default function HomePage() {
 
               <div className="flex items-center timeline-item animate-fadeIn" style={{ animationDelay: "0.6s" }}>
                 <div className="flex-1 text-right pr-8">
-                  <Card className="border-0 shadow-lg ml-auto max-w-md animate-slideRight bg-gradient-to-r from-red-50/95 to-white/95">
+                  <Card className="border-0 shadow-lg hover:shadow-2xl ml-auto max-w-md animate-slideRight bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">May 2025</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Official Startup Formation</h4>
-                      <p className="text-gray-600 text-sm">
+                      <div className="text-red-100 font-bold text-lg mb-2 animate-pulse">May 2025</div>
+                      <h4 className="font-semibold text-white mb-2">Official Startup Formation</h4>
+                      <p className="text-gray-100/90 text-sm">
                         Officially established as a startup with 6 talented team members
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">6 Team Members</div>
+                      <div className="mt-3 text-xs text-gray-300">6 Team Members</div>
                     </CardContent>
                   </Card>
                 </div>
-                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-pulse"></div>
+                <div className="w-4 h-4 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 pl-8"></div>
               </div>
 
@@ -354,14 +354,14 @@ export default function HomePage() {
                 <div className="flex-1 pr-8"></div>
                 <div className="w-6 h-6 bg-red-900 rounded-full border-4 border-white shadow-lg z-10 animate-ping"></div>
                 <div className="flex-1 text-left pl-8">
-                  <Card className="border-0 shadow-lg mr-auto max-w-md bg-gradient-to-r from-red-50/95 to-white/95 animate-slideLeft">
+                  <Card className="border-0 shadow-lg hover:shadow-2xl mr-auto max-w-md animate-slideLeft bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white transition-all duration-500 hover:-translate-y-1">
                     <CardContent className="p-6">
-                      <div className="text-red-900 font-bold text-lg mb-2">Mid-May 2025</div>
-                      <h4 className="font-semibold text-gray-900 mb-2">First Major Client</h4>
-                      <p className="text-gray-600 text-sm">
+                      <div className="text-red-100 font-bold text-lg mb-2 animate-pulse">Mid-May 2025</div>
+                      <h4 className="font-semibold text-white mb-2">First Major Client</h4>
+                      <p className="text-gray-100/90 text-sm">
                         Secured our first major project - developing a University Attendance Management System
                       </p>
-                      <div className="mt-3 text-xs text-gray-500">Project In Development</div>
+                      <div className="mt-3 text-xs text-gray-300">Project In Development</div>
                     </CardContent>
                   </Card>
                 </div>
@@ -371,29 +371,29 @@ export default function HomePage() {
 
           {/* Growth Chart */}
           <div className="mt-20">
-            <Card className="border-0 shadow-xl bg-gradient-to-r from-red-50/95 to-white/95">
+            <Card className="border-0 shadow-xl hover:shadow-2xl transition-all duration-500 bg-gradient-to-br from-gray-900/90 via-red-900/90 to-red-800/90 text-white">
               <CardHeader>
-                <CardTitle className="text-center text-2xl text-gray-900">Our Growth Story</CardTitle>
+                <CardTitle className="text-center text-2xl text-white">Our Growth Story</CardTitle>
               </CardHeader>
               <CardContent className="p-8">
                 <div className="grid md:grid-cols-3 gap-8">
                   <div className="text-center">
-                    <TrendingUp className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">1</div>
-                    <div className="text-gray-600">Completed Projects</div>
-                    <div className="text-sm text-gray-500 mt-1">MemoRaid Platform</div>
+                    <TrendingUp className="w-12 h-12 text-red-100 mx-auto mb-4 animate-bounce" />
+                    <div className="text-3xl font-bold text-white mb-2">1</div>
+                    <div className="text-gray-100/90">Completed Projects</div>
+                    <div className="text-sm text-gray-300 mt-1">MemoRaid Platform</div>
                   </div>
                   <div className="text-center">
-                    <Users className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">6</div>
-                    <div className="text-gray-600">Team Members</div>
-                    <div className="text-sm text-gray-500 mt-1">Talented Professionals</div>
+                    <Users className="w-12 h-12 text-red-100 mx-auto mb-4 animate-pulse" />
+                    <div className="text-3xl font-bold text-white mb-2">6</div>
+                    <div className="text-gray-100/90">Team Members</div>
+                    <div className="text-sm text-gray-300 mt-1">Talented Professionals</div>
                   </div>
                   <div className="text-center">
-                    <Award className="w-12 h-12 text-red-900 mx-auto mb-4" />
-                    <div className="text-3xl font-bold text-gray-900 mb-2">2</div>
-                    <div className="text-gray-600">Active Projects</div>
-                    <div className="text-sm text-gray-500 mt-1">And Growing</div>
+                    <Award className="w-12 h-12 text-red-100 mx-auto mb-4 animate-bounce" />
+                    <div className="text-3xl font-bold text-white mb-2">2</div>
+                    <div className="text-gray-100/90">Active Projects</div>
+                    <div className="text-sm text-gray-300 mt-1">And Growing</div>
                   </div>
                 </div>
               </CardContent>
