@@ -140,7 +140,7 @@ export default function HomePage() {
       </section>
 
       {/* Current Projects Section */}
-      <section id="projects" className="py-24 px-6 md:px-12 lg:px-24 bg-gray-50/80 relative z-10">
+      <section id="projects" className="py-24 px-6 md:px-12 lg:px-24  relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="bg-red-100 text-red-900 hover:bg-red-100 mb-4">Currently Working On</Badge>
@@ -403,7 +403,7 @@ export default function HomePage() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-24 px-6 md:px-12 lg:px-24 bg-gray-50/80 relative z-10">
+      <section id="services" className="py-24 px-6 md:px-12 lg:px-24 relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="bg-red-100 text-red-900 hover:bg-red-100 mb-4">What We Do</Badge>
@@ -414,50 +414,50 @@ export default function HomePage() {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Globe className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Globe className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Web Development</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">Web Development</h3>
+                <p className="text-white/90 mb-6">
                   Custom web applications built with cutting-edge frameworks for optimal performance and user
                   experience.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     React
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Next.js
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Node.js
                   </Badge>
                 </div>
-                <Button variant="ghost" className="text-red-900 p-0">
+                <Button variant="ghost" className="text-white p-0 hover:text-white/80">
                   Learn More <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-red-900 text-white">
               <CardContent className="p-8">
-                <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
-                  <Smartphone className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
+                <div className="w-16 h-16 bg-white/20 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-white/30 transition-colors">
+                  <Smartphone className="w-8 h-8 text-white transition-colors" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-4">Mobile Development</h3>
-                <p className="text-gray-600 mb-6">
+                <h3 className="text-xl font-semibold text-white mb-4">Mobile Development</h3>
+                <p className="text-white/90 mb-6">
                   Native and cross-platform mobile applications that deliver seamless experiences across all devices.
                 </p>
                 <div className="flex flex-wrap gap-2 mb-4">
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     React Native
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Flutter
                   </Badge>
-                  <Badge variant="outline" className="text-xs">
+                  <Badge variant="outline" className="text-xs text-white border-white/50">
                     Swift
                   </Badge>
                 </div>
@@ -467,7 +467,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Cloud className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -493,7 +493,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Database className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -519,7 +519,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Shield className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -545,7 +545,7 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group">
+            <Card className="border-0 shadow-lg hover:shadow-xl transition-all duration-300 group bg-white/50">
               <CardContent className="p-8">
                 <div className="w-16 h-16 bg-red-100 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-red-900 transition-colors">
                   <Code className="w-8 h-8 text-red-900 group-hover:text-white transition-colors" />
@@ -575,7 +575,7 @@ export default function HomePage() {
       </section>
 
       {/* Testimonials */}
-      <section className="py-24 px-6 md:px-12 lg:px-24 bg-gray-50/80 relative z-10">
+      <section className="py-24 px-6 md:px-12 lg:px-24  relative z-10">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-16">
             <Badge className="bg-red-100 text-red-900 hover:bg-red-100 mb-4">Client Success</Badge>
