@@ -669,7 +669,7 @@ export default function HomePage() {
 
           <div className="grid lg:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <Card className="border-0 shadow-xl bg-white/95 backdrop-blur-sm">
+            <Card className="border border-red-900 shadow-xl bg-white/95 backdrop-blur-sm">
               <CardHeader>
                 <CardTitle className="text-2xl text-gray-900">Send us a message</CardTitle>
               </CardHeader>
@@ -680,7 +680,7 @@ export default function HomePage() {
 
             {/* Contact Information */}
             <div className="space-y-8">
-              <Card className="border-0 shadow-lg bg-white/95 backdrop-blur-sm">
+              <Card className="border border-red-900 shadow-lg bg-white/95 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
@@ -695,7 +695,7 @@ export default function HomePage() {
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg bg-white/95 backdrop-blur-sm">
+              <Card className="border border-red-900 shadow-lg bg-white/95 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
@@ -703,14 +703,13 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Call Us</h3>
-                      <p className="text-gray-600 mb-1">+1 (555) 123-4567</p>
-                      <p className="text-gray-600">+1 (555) 987-6543</p>
+                      <p className="text-gray-600 mb-1">+94 77 5810310</p>
                     </div>
                   </div>
                 </CardContent>
               </Card>
 
-              <Card className="border-0 shadow-lg bg-white/95 backdrop-blur-sm">
+              <Card className="border border-red-900 shadow-lg bg-white/95 backdrop-blur-sm">
                 <CardContent className="p-8">
                   <div className="flex items-start space-x-4">
                     <div className="w-12 h-12 bg-red-100 rounded-lg flex items-center justify-center">
@@ -718,9 +717,7 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Visit Us</h3>
-                      <p className="text-gray-600 mb-1">123 Innovation Drive</p>
-                      <p className="text-gray-600 mb-1">San Francisco, CA 94105</p>
-                      <p className="text-gray-600">United States</p>
+                      <p className="text-gray-600 mb-1">Remote-First Company</p>
                     </div>
                   </div>
                 </CardContent>
@@ -809,9 +806,7 @@ export default function HomePage() {
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
                 <div>hello@tekvo.com</div>
-                <div>+1 (555) 123-4567</div>
-                <div>San Francisco, CA</div>
-                <div>New York, NY</div>
+                <div>+94 77 5810310</div>
               </div>
             </div>
           </div>
