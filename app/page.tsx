@@ -62,12 +62,12 @@ export default function HomePage() {
           <Link href="/" className="flex items-center">
             <Image
               src="/tekvo1.png"
-              alt="Tekvo Logo"
+              alt="Tekvo Labs Logo"
               width={120}
               height={40}
               className="h-8 w-auto"
             />
-            <span className="ml-2 font-semibold text-red-900">Tekvo.net</span>
+            <span className="ml-2 font-semibold text-red-900">Tekvo Labs</span>
           </Link>
           <div className="hidden md:flex items-center space-x-8">
             <Link href="#services" className="text-gray-700 hover:text-red-900 transition-colors">
@@ -90,7 +90,7 @@ export default function HomePage() {
       <section className="flex flex-col items-center justify-center min-h-screen px-6 text-center pt-16 relative z-10">
         <div className="mb-6">
           <Badge className="bg-red-100 text-red-900 hover:bg-red-100 px-4 py-2 text-sm font-medium">
-            🚀 Introducing tekvo solutions
+            🚀 Introducing Tekvo Labs solutions
           </Badge>
         </div>
 
@@ -688,8 +688,8 @@ export default function HomePage() {
                     </div>
                     <div>
                       <h3 className="font-semibold text-gray-900 mb-2">Email Us</h3>
-                      <p className="text-gray-600 mb-1">hello@tekvo.com</p>
-                      <p className="text-gray-600">support@tekvo.com</p>
+                      <p className="text-gray-600 mb-1">hello@tekvolabs.com</p>
+                      <p className="text-gray-600">support@tekvolabs.com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -763,7 +763,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-4 gap-8 mb-12">
             <div>
-              <div className="text-3xl font-bold mb-4">tekvo</div>
+              <div className="text-3xl font-bold mb-4">Tekvo Labs</div>
               <p className="text-gray-400 mb-6">
                 Building tomorrow's technology solutions today. Transforming ideas into digital reality.
               </p>
@@ -805,14 +805,14 @@ export default function HomePage() {
             <div>
               <h4 className="font-semibold mb-4">Contact Info</h4>
               <div className="space-y-2 text-gray-400">
-                <div>hello@tekvo.com</div>
+                <div>hello@tekvolabs.com</div>
                 <div>+94 77 5810310</div>
               </div>
             </div>
           </div>
 
           <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <div className="text-gray-400 mb-4 md:mb-0">&copy; 2024 Tekvo. All rights reserved.</div>
+            <div className="text-gray-400 mb-4 md:mb-0">&copy; 2024 Tekvo Labs. All rights reserved.</div>
             <div className="flex space-x-6 text-gray-400">
               <Link href="#" className="hover:text-white">
                 Privacy Policy
